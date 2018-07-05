@@ -1,1 +1,7 @@
 # kafka-sparkstreaming-hdfs
+bsle是我写的javaBean，用来接收fastJson数据的，直接对应成一个对象
+HDFSUtils是我的工具类，我把我的配置都写在hdfs上，程序运行前会加载我的一些配置
+kafka_sparkstreaming_hdfs3是我的主方法类，接收kafka数据json解析，把字段取出后再用，号拼接，存入hdfs
+test.properties是我的配置文件，存在hdfs上
+java目录下MyProducer是测试用的生产者
+不足之处敬请谅解
