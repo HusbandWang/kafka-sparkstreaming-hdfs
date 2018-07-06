@@ -1,0 +1,6 @@
+<configuration>
+    <property>
+      <name>fs.defaultFS</name>
+      <value>hdfs://dev.node1.com:8020</value>
+    </property>
+</configuration>
